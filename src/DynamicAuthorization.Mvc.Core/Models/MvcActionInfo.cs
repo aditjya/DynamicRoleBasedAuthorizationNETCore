@@ -1,13 +1,12 @@
-﻿namespace DynamicAuthorization.Mvc.Core
+﻿namespace DynamicAuthorization.Mvc.Core;
+
+public record MvcActionInfo
 {
-    public class MvcActionInfo
-    {
-        public string Id => $"{ControllerId}:{Name}";
+    public string Id => $"{ControllerId}:{Name}";
 
-        public string Name { get; set; }
+    public string Name { get; init; } = null!;
 
-        public string DisplayName { get; set; }
+    public string? DisplayName { get; init; }
 
-        public string ControllerId { get; set; }
-    }
+    public string ControllerId { get; init; } = null!;
 }

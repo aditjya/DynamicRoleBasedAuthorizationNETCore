@@ -1,17 +1,14 @@
-﻿using System.Collections.Generic;
+﻿namespace DynamicAuthorization.Mvc.Core;
 
-namespace DynamicAuthorization.Mvc.Core
+public class MvcControllerInfo
 {
-    public class MvcControllerInfo
-    {
-        public string Id => $"{AreaName}:{Name}";
+    public string Id => $"{AreaName}:{Name}";
 
-        public string Name { get; set; }
+    public string Name { get; init; } = null!;
 
-        public string DisplayName { get; set; }
+    public string? DisplayName { get; init; }
 
-        public string AreaName { get; set; }
+    public string? AreaName { get; init; }
 
-        public IEnumerable<MvcActionInfo> Actions { get; set; }
-    }
+    public IEnumerable<MvcActionInfo> Actions { get; set; } = null!;
 }

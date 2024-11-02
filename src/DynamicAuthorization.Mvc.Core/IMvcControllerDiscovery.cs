@@ -1,9 +1,13 @@
-﻿using System.Collections.Generic;
+﻿namespace DynamicAuthorization.Mvc.Core;
 
-namespace DynamicAuthorization.Mvc.Core
+/// <summary>
+///   Represents a contract for discovering MVC controllers.
+/// </summary>
+public interface IMvcControllerDiscovery
 {
-    public interface IMvcControllerDiscovery
-    {
-        IEnumerable<MvcControllerInfo> GetControllers();
-    }
+    /// <summary>
+    ///   Gets the list of MVC controllers.
+    /// </summary>
+    /// <returns>The list of MVC controllers.</returns>
+    IEnumerable<MvcControllerInfo> GetControllers();
 }
