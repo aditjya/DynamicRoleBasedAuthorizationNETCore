@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicRoleBasedAuthorizati
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net6", "net6", "{316BAD5C-847E-4BD5-AA4C-E272DD109D31}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleMvcWebWithUi", "samples\net6\SampleMvcWebWithUi\SampleMvcWebWithUi.csproj", "{09B590EC-D887-4517-A386-EBE88D3DB591}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,10 +29,6 @@ Global
 		{0FC61895-DE38-4526-96EE-C6CB6AA92A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FC61895-DE38-4526-96EE-C6CB6AA92A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FC61895-DE38-4526-96EE-C6CB6AA92A3B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09B590EC-D887-4517-A386-EBE88D3DB591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09B590EC-D887-4517-A386-EBE88D3DB591}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09B590EC-D887-4517-A386-EBE88D3DB591}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09B590EC-D887-4517-A386-EBE88D3DB591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,7 +37,6 @@ Global
 		{89E57FDC-5AF7-4AAF-A40B-FBA91D41ECF4} = {A7EEBB7E-C64D-4475-93D0-872E080A4E03}
 		{0FC61895-DE38-4526-96EE-C6CB6AA92A3B} = {DF22D7D8-4CE9-4A0E-9D9B-FB5D6D637089}
 		{316BAD5C-847E-4BD5-AA4C-E272DD109D31} = {BAAF9837-1DB5-4032-AB2A-2901E6EE6EF8}
-		{09B590EC-D887-4517-A386-EBE88D3DB591} = {316BAD5C-847E-4BD5-AA4C-E272DD109D31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18C80710-C9E9-488B-9100-1E4BF8B18038}
